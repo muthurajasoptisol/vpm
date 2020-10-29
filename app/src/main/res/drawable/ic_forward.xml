@@ -1,0 +1,15 @@
+<!--
+  ~ Created by ADT author on 9/24/20 6:44 PM
+  ~ Copyright (C) 2020 ADT. All rights reserved.
+  ~ Last modified 9/24/20 6:44 PM
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40.275dp"
+    android:height="41.202dp"
+    android:viewportWidth="40.275"
+    android:viewportHeight="41.202">
+  <path
+      android:pathData="M7.2244,14.4093a14.46,14.46 75,0 1,14.4569 -7.1401l-0.8803,-1.4932A1.26,1.26 75,1 1,22.9566 4.4743l2.4251,4.0675a1.26,1.26 75,0 1,-0.407 1.7049l-3.8727,2.5076a1.26,1.26 75,1 1,-1.3724 -2.111l1.4248,-0.9198a11.965,11.965 75,0 0,-11.7474 5.9471A11.759,11.759 75,1 0,29.6926 27.5672,1.26 1.26,75 1,1 31.8635,28.8471 14.388,14.388 75,0 1,12.365 34.0615,14.382 14.382,75 0,1 7.2244,14.4093Z"
+      android:fillColor="#fff"/>
+</vector>

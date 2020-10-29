@@ -1,0 +1,3 @@
+include ':vpm'
+include ':app'
+rootProject.name = "Video Player Module"

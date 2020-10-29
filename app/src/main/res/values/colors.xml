@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#ffffff</color>
+    <color name="bgColor">#292929</color>
+    <color name="black">#292929</color>
+    <color name="tabIndicate">#FFC491</color>
+    <color name="bgFeed">#727272</color>
+    <color name="blackAlpha">#50000000</color>
+    <color name="bgStatus">#FF1919</color>
+    <color name="bgGrey">#ABABAB</color>
+    <color name="bgCancel">#FF4444</color>
+    <color name="bgGreyAlpha">#20ABABAB</color>
+    <color name="bgBlue">#2196F3</color>
+    <color name="bgLongClick">#200033FF</color>
+    <color name="bgVideo">#5465FF</color>
+    <color name="bgTransparent">#20000000</color>
+    <color name="bgSemiTransparent">#70000000</color>
+
+</resources>

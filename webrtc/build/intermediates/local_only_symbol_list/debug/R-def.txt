@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+string pref_speakerphone_default
+string pref_speakerphone_dlg
+string pref_speakerphone_key
+string pref_speakerphone_title

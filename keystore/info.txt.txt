@@ -1,0 +1,8 @@
+VPM
+----
+
+JKS Password: vpm2020
+Alias: vpm
+Alias Password: vpm2020
+
+=========================================================

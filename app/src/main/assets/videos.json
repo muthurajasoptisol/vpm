@@ -1,0 +1,266 @@
+{
+  "rtsp": [
+    {
+      "name": "RTSP 554 Sample",
+      "uri": "rtsp://wowza.optisolbusiness.com:554/vod/sample.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSPS 560 Sample",
+      "uri": "rtsps://wowza.optisolbusiness.com:560/vod/sample.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSP Video Only MP4",
+      "uri": "rtsp://44.233.214.54:1935/vod/mp4:videoOnly.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSP Logos Tv",
+      "uri": "rtsp://streamer1.streamhost.org:1935/salive/GMIalfah",
+      "type": 1
+    },
+    {
+      "name": "Test camera",
+      "uri": "rtsp://31.0.225.93/cam/realmonitor?channel=3&subtype=00&authbasic=YWRtaW46MTIzOTg3",
+      "type": 1
+    },
+    {
+      "name": "University British Columbia Tim Hortons Camera",
+      "uri": "rtsp://streamserve.ok.ubc.ca:1935/timcam/timcam.stream",
+      "type": 1
+    },
+    {
+      "name": "Live stream TV from Italian TV - Alto Adige TV",
+      "uri": "rtsp://77.72.196.214:8554/live/mp4:AltoAdigeTV",
+      "type": 1
+    },
+    {
+      "name": "AXIS P7214 - Germany",
+      "uri": "rtsp://root:pass@80.84.207.150/axis-media/media.amp",
+      "type": 1
+    },
+    {
+      "name": "AXIS M7001 - Korea",
+      "uri": "rtsp://root:pass@121.187.230.163/axis-media/media.amp",
+      "type": 1
+    },
+    {
+      "name": "Sony SNC-WR632 - USA",
+      "uri": "rtsp://admin:admin@108.58.215.162/media/video1",
+      "type": 1
+    },
+    {
+      "name": "Live stream TV from Bulgaria - Balkanika MTV",
+      "uri": "rtsp://stream.teracomm.bg/balkanika",
+      "type": 1
+    },
+    {
+      "name": "Live stream TV from Bulgaria - Planeta TV",
+      "uri": "rtsp://stream.teracomm.bg/planeta",
+      "type": 1
+    },
+    {
+      "name": "Live stream TV from Bulgaria - FEN TV",
+      "uri": "rtsp://stream.teracomm.bg/fen",
+      "type": 1
+    },
+    {
+      "name": "RTSPS to No Where",
+      "uri": "rtsps://ServerFromNoWhere.com/vod/sample.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSP to No Where",
+      "uri": "rtsp://ServerFromNoWhere.com/vod/sample.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSP invalid with valid server",
+      "uri": "rtsp://wowza.optisolbusiness.com:554/vod/invalid.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSP SmashedLabs 1935",
+      "uri": "rtsp://wowza.smashedlabs-dev.net:1935/vod/sample.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSPS SmashedLabs 560",
+      "uri": "rtsps://wowza.smashedlabs-dev.net:560/vod/sample.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSP SmashedLabs 1935 The Road",
+      "uri": "rtsp://wowza.smashedlabs-dev.net:1935/vod/Isaac+Schlueter+__+The+Road+to+Node.js+v1.0.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSP SmashedLabs 1935 Star Trail",
+      "uri": "rtsp://wowza.smashedlabs-dev.net:1935/vod/star_trails.mp4",
+      "type": 1
+    },
+    {
+      "name": "RTSP SmashedLabs 1935 MP3",
+      "uri": "rtsp://wowza.smashedlabs-dev.net:1935/vod/file_example_MP3_5MG.mp3",
+      "type": 1
+    }
+  ],
+  "http": [
+    {
+      "name": "HLS HTTPS Apple 4x3 30 min",
+      "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+      "type": 2
+    },
+    {
+      "name": "HLS HTTPS Apple 16x9 30 min",
+      "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
+      "type": 2
+    },
+    {
+      "name": "HLS HTTPS Apple TS media playlist",
+      "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8",
+      "type": 2
+    },
+    {
+      "name": "HLS Apple AAC Audio Only",
+      "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear0/prog_index.m3u8",
+      "type": 2
+    },
+    {
+      "name": "HTTPS SmashedLabs The Road 15 min",
+      "uri": "https://smashedlabs-video.s3.amazonaws.com/Isaac+Schlueter+__+The+Road+to+Node.js+v1.0.mp4",
+      "type": 3
+    },
+    {
+      "name": "HTTPS SmashedLabs Video Only",
+      "uri": "https://smashedlabs-video.s3.amazonaws.com/videoOnly.mp4",
+      "type": 3
+    },
+    {
+      "name": "HTTPS SmashedLabs 1935 Audio Only",
+      "uri": "https://smashedlabs-video.s3.amazonaws.com/file_example_MP3_5MG.mp3",
+      "type": 3
+    },
+    {
+      "name": "HTTP Sample Small",
+      "uri": "http://techslides.com/demos/sample-videos/small.mp4",
+      "type": 3
+    },
+    {
+      "name": "HTTP ElephantsDream",
+      "uri": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "type": 3
+    },
+    {
+      "name": "HTTP WhatCarCanYouGetForAGrand",
+      "uri": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+      "type": 3
+    },
+    {
+      "name": "HTTP SmashedLabs Video Only",
+      "uri": "http://smashedlabs-video.s3.amazonaws.com/videoOnly.mp4",
+      "type": 3
+    },
+    {
+      "name": "HTTP SmashedLabs 1935 Audio Only",
+      "uri": "http://smashedlabs-video.s3.amazonaws.com/file_example_MP3_5MG.mp3",
+      "type": 3
+    },
+    {
+      "name": "HLS Playlist",
+      "uri": "https://5b44cf20b0388.streamlock.net:8443/vod/smil:bbb.smil/playlist.m3u8",
+      "type": 2
+    },
+    {
+      "name": "Google Play (MP3)",
+      "uri": "https://storage.googleapis.com/exoplayer-test-media-0/play.mp3",
+      "type": 3
+    },
+    {
+      "name": "Dizzy (MP4)",
+      "uri": "https://html5demos.com/assets/dizzy.mp4",
+      "type": 3
+    },
+    {
+      "name": "Android screens (MKV)",
+      "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
+      "type": 3
+    },
+    {
+      "name": "Apple master playlist advanced (TS)",
+      "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+      "type": 2
+    },
+    {
+      "name": "Apple master playlist advanced (fMP4)",
+      "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
+      "type": 2
+    },
+    {
+      "name": "Screens 360p video (WebM,VP9)",
+      "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-vp9-360.webm",
+      "type": 3
+    },
+    {
+      "name": "Screens 480p video (FMP4,H264)",
+      "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4",
+      "type": 3
+    },
+    {
+      "name": "Screens 1080p video (FMP4,H264)",
+      "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-137.mp4",
+      "type": 3
+    },
+    {
+      "name": "Screens audio (FMP4)",
+      "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/audio-141.mp4",
+      "type": 3
+    },
+    {
+      "name": "Google Play (Ogg/Vorbis)",
+      "uri": "https://storage.googleapis.com/exoplayer-test-media-1/ogg/play.ogg",
+      "type": 3
+    },
+    {
+      "name": "Google Play (FLAC)",
+      "uri": "https://storage.googleapis.com/exoplayer-test-media-1/flac/play.flac",
+      "type": 3
+    },
+    {
+      "name": "Big Buck Bunny video (FLV)",
+      "uri": "https://vod.leasewebcdn.com/bbb.flv?ri=1024&rs=150&start=0",
+      "type": 3
+    },
+    {
+      "name": "Big Buck Bunny 480p video (MP4,AV1)",
+      "uri": "https://storage.googleapis.com/downloads.webmproject.org/av1/exoplayer/bbb-av1-480p.mp4",
+      "type": 3
+    },
+    {
+      "name": "HTTPS to No Where",
+      "uri": "https://ServerFromNoWhere.com/vod/sample.mp4",
+      "type": 3
+    },
+    {
+      "name": "HTTP to No Where",
+      "uri": "http://ServerFromNoWhere.com/vod/sample.mp4",
+      "type": 3
+    },
+    {
+      "name": "HTTPS invalid with valid server",
+      "uri": "https://wowza.optisolbusiness.com:554/vod/invalid.mp4",
+      "type": 3
+    },
+    {
+      "name": "HLS to No Where",
+      "uri": "http://ServerFromNoWhere.com/vod/sample.m3u8",
+      "type": 2
+    },
+    {
+      "name": "HLS invalid with valid server",
+      "uri": "https://html5demos.com/assets/sample.m3u8",
+      "type": 2
+    }
+  ]
+}

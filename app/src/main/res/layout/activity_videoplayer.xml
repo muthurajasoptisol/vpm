@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor">
+
+    <com.adt.vpm.videoplayer.source.ui.AspectRatioFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.adt.vpm.videoplayer.source.ui.PlayerView
+            android:id="@+id/playerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:controller_layout_id="@layout/player_control_view"
+            app:resize_mode="fit"
+            app:surface_type="texture_view" />
+
+        <TextureView
+            android:id="@+id/playerTextureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <SurfaceView
+            android:id="@+id/playerSurfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/rtlPlayerController"
+            layout="@layout/player_control_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+    </com.adt.vpm.videoplayer.source.ui.AspectRatioFrameLayout>
+
+</RelativeLayout>
